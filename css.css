@@ -1,9 +1,11 @@
  * {
   box-sizing: border-box;
+  background-color: #D0E6F9;
 }
 h1 {
   margin-bottom: 15px;
   text-align: center;
+  font-family: serif;
 }
 p {
   padding-right: 10px;
@@ -11,8 +13,8 @@ p {
   padding-top: 40px;
   border: 1px solid black;
   margin: 10px;
-  background-color: gray;
-  font-family: sans-serif;
+  background-color: #B3B4B5;
+  font-family: cursive;
 
 }
 h2{
@@ -53,7 +55,7 @@ h2{
 
 /******TABLET DEVICES****/
 @media(min-width: 768px) and (max-width: 991px){
-  .col-md-4, .col-md-6{
+  .col-md-6, .col-md-12{
     float: left;
     border: 1px;
   }
